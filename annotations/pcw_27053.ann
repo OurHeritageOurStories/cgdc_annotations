@@ -1,0 +1,48 @@
+T1	Person 9 29	William Henry Thomas
+T2	Person 48 68	William Henry Thomas
+T3	Location 74 87	Pontarddulais
+#1	AnnotatorNotes T3	https://www.wikidata.org/wiki/Q3397684
+T4	Organisation 111 137	Second Devonshire Regiment
+#2	AnnotatorNotes T4	https://www.wikidata.org/wiki/Q8338604
+T5	Misc 161 180	Battle of the Somme
+#3	AnnotatorNotes T5	https://www.wikidata.org/wiki/Q132568
+T6	Person 479 491	Gladys Jones
+T7	Coreference 139 141	He
+R1	Coreferent arg1:T7 Arg2:T2	
+T8	Verb 146 153	wounded
+R2	Subject Arg1:T8 Arg2:T7	
+R3	Object Arg1:T8 Arg2:T5	
+T9	Coreference 204 207	his
+R4	Coreferent arg1:T9 Arg2:T2	
+T10	Coreference 220 222	he
+R5	Coreferent arg1:T10 Arg2:T2	
+T11	Coreference 273 274	I
+R6	Coreferent arg1:T11 Arg2:T2	
+T12	Coreference 301 302	I
+R7	Coreferent arg1:T12 Arg2:T2	
+T13	Coreference 310 312	my
+R8	Coreferent arg1:T13 Arg2:T2	
+T14	Coreference 327 328	I
+R9	Coreferent arg1:T14 Arg2:T2	
+T15	Coreference 374 376	my
+R10	Coreferent arg1:T15 Arg2:T2	
+T16	Coreference 385 387	my
+R11	Coreferent arg1:T16 Arg2:T2	
+T17	Coreference 459 460	I
+R12	Coreferent arg1:T17 Arg2:T2	
+T18	Verb 473 478	thank
+R13	Subject Arg1:T18 Arg2:T17	
+R14	Object Arg1:T18 Arg2:T6	
+T19	Coreference 511 512	I
+R15	Coreferent arg1:T19 Arg2:T2	
+T20	Coreference 534 537	her
+R16	Coreferent arg1:T20 Arg2:T6	
+T21	Coreference 581 584	she
+R17	Coreferent arg1:T21 Arg2:T6	
+T22	Coreference 590 592	me
+R18	Coreferent arg1:T22 Arg2:T2	
+T23	Verb 585 589	gave
+R19	Subject Arg1:T23 Arg2:T21	
+R20	Object Arg1:T23 Arg2:T22	
+T24	Coreference 650 652	my
+R21	Coreferent arg1:T24 Arg2:T2	

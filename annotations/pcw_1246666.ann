@@ -1,0 +1,10 @@
+T1	Person 0 4	Alex
+T2	Person 9 13	Aled
+T3	Person 68 72	Aled
+T4	Person 77 81	Aled
+T5	Coreference 100 105	their
+R1	Coreferent arg1:T5 Arg2:T3	
+R2	Coreferent arg1:T5 Arg2:T4	
+T6	Coreference 127 131	they
+R3	Coreferent arg1:T6 Arg2:T3	
+R4	Coreferent arg1:T6 Arg2:T4	

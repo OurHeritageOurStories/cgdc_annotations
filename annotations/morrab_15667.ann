@@ -1,0 +1,16 @@
+T1	Location 0 16	Penzance Theatre
+T2	Misc 47 53	Duenna
+#1	AnnotatorNotes T2	https://www.wikidata.org/wiki/Q7731154
+T3	Coreference 75 86	New Theatre
+T4	Location 88 96	Penzance
+#2	AnnotatorNotes T4	https://www.wikidata.org/wiki/Q208209
+T5	Verb 61 67	staged
+R1	Subject Arg1:T5 Arg2:T2	
+R2	Object Arg1:T5 Arg2:T3	
+R3	Object Arg1:T5 Arg2:T4	
+T6	Location 117 130	Chapel Street
+R4	Coreferent arg1:T3 Arg2:T1	
+T7	Verb 26 37	Advertising
+R5	Subject Arg1:T7 Arg2:T1	
+R6	Object Arg1:T7 Arg2:T2	
+#3	AnnotatorNotes T1	https://www.wikidata.org/wiki/Q26436826

@@ -1,0 +1,16 @@
+T1	Location 0 10	BoscawenUn
+#1	AnnotatorNotes T1	https://www.wikidata.org/wiki/Q894360
+T2	Misc 11 21	Bronze Age
+#2	AnnotatorNotes T2	https://www.wikidata.org/wiki/Q11761
+T3	Location 49 59	St. Buryan
+#3	AnnotatorNotes T3	https://www.wikidata.org/wiki/Q652930
+T4	Misc 83 98	Cornish Gorsedd
+#4	AnnotatorNotes T4	https://www.wikidata.org/wiki/Q20826063
+T5	Date 99 103	1928
+T6	Coreference 11 34	Bronze Age stone circle
+R1	Coreferent arg1:T6 Arg2:T1	
+T7	Verb 36 43	located
+R2	Subject Arg1:T7 Arg2:T6	
+R3	Object Arg1:T7 Arg2:T3	
+T8	Coreference 61 98	the site of the first Cornish Gorsedd
+R4	Coreferent arg1:T8 Arg2:T1	

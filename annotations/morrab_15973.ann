@@ -1,0 +1,30 @@
+T1	GPE 0 21	Sacreed Parish Church
+T2	Coreference 22 40	This Parish Church
+R1	Coreferent arg1:T2 Arg2:T1	
+#1	AnnotatorNotes T1	https://www.wikidata.org/wiki/Q17531295
+T3	Person 57 66	St Creden
+T4	Verb 44 53	dedicated
+R2	Subject Arg1:T4 Arg2:T2	
+R3	Object Arg1:T4 Arg2:T3	
+T5	Coreference 68 82	The churchyard
+R4	Coreferent arg1:T5 Arg2:T1	
+T6	Coreference 87 93	church
+R5	Coreferent arg1:T6 Arg2:T1	
+T7	Date 111 120	late 19th
+T8	Date 143 155	20thcentury,
+T9	Organisation 196 216	Newlyn School of Art
+#2	AnnotatorNotes T9	https://www.wikidata.org/wiki/Q16998883
+T10	Coreference 255 265	the church
+R6	Coreferent arg1:T10 Arg2:T1	
+T11	Coreference 284 298	the churchyard
+R7	Coreferent arg1:T11 Arg2:T1	
+T12	Person 309 327	Stanhope Forbes RA
+#3	AnnotatorNotes T12	https://www.wikidata.org/wiki/Q360724
+T13	Verb 274 280	buried
+R8	Subject Arg1:T13 Arg2:T12	
+R9	Object Arg1:T13 Arg2:T11	
+T14	Verb 170 176	appeal
+R10	Subject Arg1:T14 Arg2:T6	
+R11	Object Arg1:T14 Arg2:T7	
+R12	Object Arg1:T14 Arg2:T8	
+R13	Object Arg1:T14 Arg2:T9	

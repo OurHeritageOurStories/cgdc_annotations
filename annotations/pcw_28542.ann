@@ -1,0 +1,81 @@
+T1	Person 0 11	Benny James
+T2	Date 19 34	27 October 1915
+T3	Person 35 49	Benjamin James
+T4	Person 74 79	Benny
+T5	Location 93 101	Chepstow
+#1	AnnotatorNotes T5	https://www.wikidata.org/wiki/Q771986
+T6	Organisation 118 139	Royal Welch Fusiliers
+#2	AnnotatorNotes T6	https://www.wikidata.org/wiki/Q752760
+T7	Location 143 152	Tonypandy
+#3	AnnotatorNotes T7	https://www.wikidata.org/wiki/Q1537181
+T8	Organisation 227 240	2nd Batallion
+T9	Organisation 248 251	RWF
+#4	AnnotatorNotes T9	https://www.wikidata.org/wiki/Q752760
+T10	Organisation 284 299	Royal Engineers
+#5	AnnotatorNotes T10	https://www.wikidata.org/wiki/Q3098650
+T11	Date 380 395	27 October 1915
+T12	Organisation 424 427	RWF
+#6	AnnotatorNotes T12	https://www.wikidata.org/wiki/Q752760
+T13	Person 443 450	Frances
+T14	Person 453 457	Fran
+T15	Person 490 495	Benny
+T16	Person 503 507	Fran
+T17	Person 614 619	Benny
+T18	Location 648 661	Western Front
+#7	AnnotatorNotes T18	https://www.wikidata.org/wiki/Q152989
+T19	Date 665 678	19 April 1916
+T20	Location 734 751	Loos War Memorial
+#8	AnnotatorNotes T20	https://www.wikidata.org/wiki/Q2478266
+T21	Location 763 788	War Memorial at Chepstow.
+#9	AnnotatorNotes T21	https://www.wikidata.org/wiki/Q29482562
+T22	Coreference 60 63	his
+R1	Coreferent arg1:T22 Arg2:T3	
+T23	Verb 51 56	known
+R2	Subject Arg1:T23 Arg2:T3	
+R3	Object Arg1:T23 Arg2:T4	
+T24	Verb 85 89	born
+R4	Subject Arg1:T24 Arg2:T3	
+R5	Object Arg1:T24 Arg2:T5	
+T25	Verb 107 113	joined
+R6	Subject Arg1:T25 Arg2:T3	
+R7	Object Arg1:T25 Arg2:T6	
+R8	Object Arg1:T25 Arg2:T7	
+T26	Coreference 203 205	he
+R9	Coreferent arg1:T26 Arg2:T3	
+T27	Verb 206 217	transferred
+R10	Subject Arg1:T27 Arg2:T26	
+R11	Object Arg1:T27 Arg2:T8	
+R12	Object Arg1:T27 Arg2:T9	
+T28	Verb 255 260	serve
+R13	Subject Arg1:T28 Arg2:T3	
+R14	Object Arg1:T28 Arg2:T10	
+T29	Coreference 402 404	he
+R15	Coreferent arg1:T29 Arg2:T3	
+T30	Coreference 432 435	his
+R16	Coreferent arg1:T30 Arg2:T3	
+T31	Coreference 432 442	his sister
+R17	Coreferent arg1:T31 Arg2:T13	
+T32	Coreference 464 467	her
+R18	Coreferent arg1:T32 Arg2:T13	
+T33	Verb 496 502	thanks
+R19	Subject Arg1:T33 Arg2:T15	
+R20	Object Arg1:T33 Arg2:T16	
+T34	Coreference 540 544	they
+R21	Coreferent arg1:T34 Arg2:T16	
+T35	Verb 527 531	asks
+R22	Subject Arg1:T35 Arg2:T15	
+R23	Object Arg1:T35 Arg2:T34	
+T36	Coreference 588 591	him
+R24	Coreferent arg1:T36 Arg2:T15	
+T37	Verb 624 630	killed
+R25	Subject Arg1:T37 Arg2:T17	
+R26	Object Arg1:T37 Arg2:T18	
+R27	Object Arg1:T37 Arg2:T19	
+T38	Coreference 680 683	his
+R28	Coreferent arg1:T38 Arg2:T17	
+T39	Coreference 710 712	He
+R29	Coreferent arg1:T39 Arg2:T17	
+T40	Verb 716 726	remembered
+R30	Subject Arg1:T40 Arg2:T39	
+R31	Object Arg1:T40 Arg2:T20	
+R32	Object Arg1:T40 Arg2:T21	

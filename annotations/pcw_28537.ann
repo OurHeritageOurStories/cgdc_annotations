@@ -1,0 +1,19 @@
+T1	Location 32 49	Llandrindod Wells
+#1	AnnotatorNotes T1	https://www.wikidata.org/wiki/Q1024885
+T2	Date 51 55	1915
+T3	Organisation 92 116	Voluntary Aid Detachment
+#2	AnnotatorNotes T3	https://www.wikidata.org/wiki/Q7940945
+T4	Organisation 56 59	VAD
+#3	AnnotatorNotes T4	https://www.wikidata.org/wiki/Q7940945
+T5	Location 156 163	Belgian
+#4	AnnotatorNotes T5	https://www.wikidata.org/wiki/Q31
+T6	Location 177 184	Belgian
+#5	AnnotatorNotes T6	https://www.wikidata.org/wiki/Q31
+T7	Location 212 229	County Club hotel
+#6	AnnotatorNotes T7	https://www.wikidata.org/wiki/Q1045316
+T8	Location 268 281	Beaufort Road
+T9	Location 283 294	Llandrindod
+#7	AnnotatorNotes T9	https://www.wikidata.org/wiki/Q1024885
+T10	Date 302 306	1915
+T11	Coreference 231 241	a hospital
+R1	Coreferent arg1:T11 Arg2:T7	

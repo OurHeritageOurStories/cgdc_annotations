@@ -1,0 +1,10 @@
+T1	Location 0 15	Castle An Dinas
+#1	AnnotatorNotes T1	https://www.wikidata.org/wiki/Q5050344
+T2	Location 17 25	Penzance
+#2	AnnotatorNotes T2	https://www.wikidata.org/wiki/Q208209
+T3	Location 60 78	Rogers Tower Folly
+T4	Verb 43 48	known
+R2	Object Arg1:T4 Arg2:T3	
+T5	Coreference 26 42	Hilltop building
+R1	Coreferent arg1:T5 Arg2:T1	
+R3	Subject Arg1:T4 Arg2:T5	

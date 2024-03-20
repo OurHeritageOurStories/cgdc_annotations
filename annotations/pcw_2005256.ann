@@ -1,0 +1,28 @@
+T1	Person 0 10	Ian Palmer
+T2	Person 40 43	Ian
+T3	Location 65 69	TJ's
+#1	AnnotatorNotes T3	https://www.wikidata.org/wiki/Q16897354
+T4	Location 35 39	TJ's
+#2	AnnotatorNotes T4	https://www.wikidata.org/wiki/Q16897354
+T5	Organisation 12 18	Shelac
+#3	AnnotatorNotes T5	https://www.wikidata.org/wiki/Q1479031
+T6	Organisation 78 84	Shelac
+#4	AnnotatorNotes T6	https://www.wikidata.org/wiki/Q1479031
+T7	Organisation 20 30	Headhonker
+T8	Organisation 130 140	Headhonker
+T9	Date 142 147	1990s
+T10	Person 99 108	PJ Harvey
+#5	AnnotatorNotes T10	https://www.wikidata.org/wiki/Q219772
+T11	Verb 56 61	going
+R1	Subject Arg1:T11 Arg2:T2	
+R2	Object Arg1:T11 Arg2:T3	
+T12	Verb 71 77	seeing
+R3	Subject Arg1:T12 Arg2:T2	
+R4	Object Arg1:T12 Arg2:T6	
+T13	Verb 86 93	bumping
+R5	Subject Arg1:T13 Arg2:T2	
+R6	Object Arg1:T13 Arg2:T10	
+T14	Verb 114 124	performing
+R7	Subject Arg1:T14 Arg2:T2	
+R8	Object Arg1:T14 Arg2:T8	
+R9	Object Arg1:T14 Arg2:T9	

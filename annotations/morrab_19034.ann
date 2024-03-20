@@ -1,0 +1,6 @@
+T2	Misc 50 67	The Cornish Giant
+T3	Location 135 143	Camborne
+#1	AnnotatorNotes T3	https://www.wikidata.org/wiki/Q1774403
+T1	Misc 13 40	first Trevithick road trial
+T4	Coreference 115 143	First road trial at Camborne
+R1	Coreferent arg1:T4 Arg2:T1	

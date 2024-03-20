@@ -1,0 +1,16 @@
+T1	Location 0 18	Old Dolphin Tavern
+T2	Location 20 29	Wharfside
+T3	Location 31 39	Penzance
+#1	AnnotatorNotes T3	https://www.wikidata.org/wiki/Q208209
+T4	Location 66 77	Quay Street
+T5	Location 79 87	Penzance
+#2	AnnotatorNotes T5	https://www.wikidata.org/wiki/Q208209
+T6	Verb 40 48	Situated
+R1	Subject Arg1:T6 Arg2:T1	
+R2	Object Arg1:T6 Arg2:T4	
+R3	Object Arg1:T6 Arg2:T5	
+T7	Location 131 145	Harbour Office
+T8	Location 170 182	Battery Road
+#3	AnnotatorNotes T7	https://www.wikidata.org/wiki/Q26435997
+T9	Coreference 89 122	The attached building to the left
+R4	Coreferent arg1:T9 Arg2:T7	

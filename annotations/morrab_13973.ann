@@ -1,0 +1,11 @@
+T1	Location 10 22	Nanjizal Bay
+#1	AnnotatorNotes T1	https://www.wikidata.org/wiki/Q15260955
+T2	Location 24 32	Cornwall
+#2	AnnotatorNotes T2	https://www.wikidata.org/wiki/Q23148
+T3	Location 110 119	Lands End
+#3	AnnotatorNotes T3	https://www.wikidata.org/wiki/Q169532
+T4	Coreference 33 60	This beautiful secluded bay
+R1	Coreferent arg1:T4 Arg2:T1	
+T5	Verb 96 104	situated
+R2	Subject Arg1:T5 Arg2:T4	
+R3	Object Arg1:T5 Arg2:T3	

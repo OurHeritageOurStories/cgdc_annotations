@@ -1,0 +1,18 @@
+T1	Location 8 17	Yacht Inn
+T2	Date 23 27	1922
+T3	Location 29 37	Penzance
+#1	AnnotatorNotes T3	https://www.wikidata.org/wiki/Q208209
+T4	Location 75 84	Yacht Inn
+T5	Person 95 107	Francis Eddy
+T6	Date 194 198	1936
+T7	Person 212 225	Colin Drewitt
+T8	Coreference 264 271	the Inn
+R1	Coreferent arg1:T8 Arg2:T4	
+T9	Location 279 292	Pascoes Court
+T10	Coreference 108 120	the licensee
+R2	Coreferent arg1:T10 Arg2:T5	
+T11	Organisation 226 236	F.R.I.B.A.
+#2	AnnotatorNotes T11	https://www.wikidata.org/wiki/Q1067943
+T12	Verb 152 160	replaced
+R3	Subject Arg1:T12 Arg2:T4	
+R4	Object Arg1:T12 Arg2:T6	

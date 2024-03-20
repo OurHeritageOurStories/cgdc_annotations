@@ -1,0 +1,9 @@
+T1	Location 4 14	Logan Rock
+#1	AnnotatorNotes T1	https://www.wikidata.org/wiki/Q6667143
+T2	Location 72 82	Porthcurno
+#2	AnnotatorNotes T2	https://www.wikidata.org/wiki/Q847176
+T3	Coreference 31 57	this unique rock formation
+R1	Coreferent arg1:T3 Arg2:T1	
+T4	Verb 58 66	situated
+R2	Subject Arg1:T4 Arg2:T3	
+R3	Object Arg1:T4 Arg2:T2	

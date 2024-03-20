@@ -1,0 +1,5 @@
+T1	Location 0 28	Cowbridge Girls' High School
+#1	AnnotatorNotes T1	https://www.wikidata.org/wiki/Q113859781
+T2	Organisation 83 108	Cowbridge History Society
+T3	Coreference 168 178	the school
+R1	Coreferent arg1:T3 Arg2:T1	
