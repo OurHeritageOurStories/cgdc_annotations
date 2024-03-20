@@ -1,5 +1,5 @@
 ## Overview
-This repo contains a historical and cultural narratives text annotated with Named Entity Linking (NER) and  Entity Linking (EL). The dataset consists of 100 annotation (.ann) output files generated using the Brat annotation tool. These annotations were applied to 100 items collected with an equal distribution of 50 items each collected from Morrab Library ([https://morrablibrary.org.uk/](https://morrablibrary.org.uk/)) and The People's Collection of Wales (PCW) ([https://www.peoplescollection.wales/](https://www.peoplescollection.wales/)).
+This repository contains historical and cultural narratives text annotated with Named Entities (NE) and Entity Linking (EL). The dataset consists of 100 annotation (.ann) files generated using the [Brat annotation tool](https://github.com/nlplab/brat). These annotations were applied to 100 items, with an equal distribution of 50 items collected from [Morrab Library](https://morrablibrary.org.uk/) and [The People's Collection of Wales (PCW)](https://www.peoplescollection.wales/).
 
 ## Usage
 Researchers and practitioners can utilise this dataset for further testing and evaluation of Entity Linking models on historical and cultural narratives. It provides a curated set of annotations that can serve as a benchmark for assessing EL model performance.
@@ -14,5 +14,5 @@ Researchers and practitioners can utilise this dataset for further testing and e
 ## Citation
 If you use this dataset in your research or work, please cite the accompanying paper:
 [ The paper name is "Enriching the Metadata of Community-Generated Digital Content through Entity Linking: An Evaluative Comparison of State-of-the-Art Models"
-citation will be provided soon when the proceeding is published]
+Full citation will be provided soon when the proceeding is published]
 
