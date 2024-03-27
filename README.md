@@ -12,6 +12,5 @@ Researchers and practitioners can utilise this dataset in testing and evaluating
 
 ## Citation
 If you use this dataset in your research or work, please cite the following paper:
-"Enriching the Metadata of Community-Generated Digital Content through Entity Linking: An Evaluative Comparison of State-of-the-Art Models"
-(full citation details will be provided once when the EACL 2024 proceedings are published).
+Youcef Benkhedda, Adrians Skapars, Viktor Schlegel, Goran Nenadic, and Riza Batista-Navarro. 2024. [Enriching the Metadata of Community-Generated Digital Content through Entity Linking: An Evaluative Comparison of State-of-the-Art Models](https://aclanthology.org/2024.latechclfl-1.20). In Proceedings of the 8th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL 2024), pages 213–220, St. Julians, Malta. Association for Computational Linguistics.
 
